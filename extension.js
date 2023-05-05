@@ -1,7 +1,7 @@
 /* -*- mode: js2; js2-basic-offset: 4; indent-tabs-mode: nil -*- */
 /*
  * edge-fipping
- * Copyright (C) 2012 Agus Lopez <aremuinan@gmail.com>,
+ * Copyright (C) 2012 Agus Lopez <contact@aguslr.com>,
  * Christian Schramm <christian.h.m.schramm@gmail.com>
  *
  * edge-flipping is free software: you can redistribute it and/or modify it
@@ -33,9 +33,9 @@ const Convenience = Me.imports.convenience;
 const EdgeFlipping = new Lang.Class({
 
     Name: 'EdgeFlipping',
-    
+
     _init: function() {
-    
+
         this._settings = Convenience.getSettings();
 
         // Calculate some variables
